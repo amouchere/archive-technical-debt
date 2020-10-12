@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/technical-debt`,
   siteMetadata: {
     title: `Technical Debt`,
     author: {
