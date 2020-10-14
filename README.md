@@ -27,10 +27,8 @@
     Deploy the blog
     
     ```shell
-    cd my-blog-starter/
     npm run deploy
     ```
-$ 
 
 
 
