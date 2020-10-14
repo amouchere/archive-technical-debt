@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Technical Debt]]></title><description><![CDATA[Un blog rempli de notes et pense-bête]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Oct 2020 20:32:33 GMT</lastBuildDate><item><title><![CDATA[Utiliser un intercepteur SOAP]]></title><description><![CDATA[Pour ajouter un intercepteur SOAP, il suffit de le déclarer dans la déclaration du WS (appContext Spring). outInterceptor permet de définir…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/soap_interceptor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/soap_interceptor/</guid><pubDate>Fri, 03 Apr 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Pour ajouter un intercepteur SOAP, il suffit de le déclarer dans la déclaration du WS (appContext Spring). outInterceptor permet de définir qu’il s’agit d’intercepter les requêtes sortantes.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Technical Debt]]></title><description><![CDATA[Un blog rempli de notes et pense-bête]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 14 Oct 2020 19:15:38 GMT</lastBuildDate><item><title><![CDATA[Branche git et prompt shell]]></title><description><![CDATA[=======
+UPDATE 2020 Utiliser plutôt  Oh-my-zsh qui gère nativement cet affichage et possède de nombreuses autres features. =======…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/affichage_de_la_branche_git_dans_le_prompt_shell/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/affichage_de_la_branche_git_dans_le_prompt_shell/</guid><pubDate>Tue, 02 Feb 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;=======
+UPDATE 2020&lt;/p&gt;
+&lt;p&gt;Utiliser plutôt &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot; title=&quot;Example&quot;&gt; Oh-my-zsh&lt;/a&gt; qui gère nativement cet affichage et possède de nombreuses autres features.&lt;/p&gt;
+&lt;p&gt;=======&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/technical-debt/static/143e2665827fcf53fb9582a405f489b4/4597d/prompt.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.645569620253163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAAAwUlEQVQY03WPyRKEIAxE2WTHA+q4g6Pl///itHjx4PShC1J5SYdM03Qcx7IswzDknPu+n4q2bavrmhAiRMUYI6+a5xkwuruue8KY1RZ92hiDMkZba0PwzjnvvVLqgtcidMcYAQDGlPvbNI1UilMqGakEp4xxzllxSukFj+O47ztiA0spwVEBjDeKa8p9E76RzW3Qxr7EPs8Ty7EWd8JRubB1xRRrnaqEraiWQt5Rn0J6YwxcSqm1hqsiPHAeEpL/+gFB9BN9hZYAvQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;résultat&quot;
+        title=&quot;résultat&quot;
+        src=&quot;/technical-debt/static/143e2665827fcf53fb9582a405f489b4/f058b/prompt.png&quot;
+        srcset=&quot;/technical-debt/static/143e2665827fcf53fb9582a405f489b4/c26ae/prompt.png 158w,
+/technical-debt/static/143e2665827fcf53fb9582a405f489b4/6bdcf/prompt.png 315w,
+/technical-debt/static/143e2665827fcf53fb9582a405f489b4/f058b/prompt.png 630w,
+/technical-debt/static/143e2665827fcf53fb9582a405f489b4/4597d/prompt.png 631w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Télécharger dans son répertoire perso, le script SH qui fait le boulot:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modifier son .bashrc&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Se placer à la ligne où on définit l’entête du prompt.
+Executer le script précédemment téléchargé, puis modifier le prompt.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Load in the git branch prompt script.&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.git-prompt.sh
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$color_prompt&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+   &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PS1&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&lt;span class=&quot;token variable&quot;&gt;${debian_chroot&lt;span class=&quot;token operator&quot;&gt;:+&lt;/span&gt;($debian_chroot)}&lt;/span&gt;\[&lt;span class=&quot;token entity&quot; title=&quot;\033&quot;&gt;\033&lt;/span&gt;[01;32m\]\u@\h\[&lt;span class=&quot;token entity&quot; title=&quot;\033&quot;&gt;\033&lt;/span&gt;[00m\]:\[&lt;span class=&quot;token entity&quot; title=&quot;\033&quot;&gt;\033&lt;/span&gt;[01;34m\]\w\[&lt;span class=&quot;token entity&quot; title=&quot;\e&quot;&gt;\e&lt;/span&gt;[33m\]&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;__git_ps1 &lt;span class=&quot;token string&quot;&gt;&quot; (%s)&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;\[&lt;span class=&quot;token entity&quot; title=&quot;\e&quot;&gt;\e&lt;/span&gt;[m\]\$ &apos;&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;# PS1=&apos;${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \[\e[33m\]$(__git_ps1 &quot;(%s)&quot;)\[\033[01;34m\]\$\[\033[00m\] &apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+   &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PS1&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[\u@\h \w&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;__git_ps1 &lt;span class=&quot;token string&quot;&gt;&quot; (%s)&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;]\$ &apos;&lt;/span&gt;
+Fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Mettre à jour son .bashrc&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Source :
+&lt;a href=&quot;http://git-prompt.sh/&quot;&gt;http://git-prompt.sh/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Utiliser un intercepteur SOAP]]></title><description><![CDATA[Pour ajouter un intercepteur SOAP, il suffit de le déclarer dans la déclaration du WS (appContext Spring). outInterceptor permet de définir…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/soap_interceptor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/soap_interceptor/</guid><pubDate>Fri, 03 Apr 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Pour ajouter un intercepteur SOAP, il suffit de le déclarer dans la déclaration du WS (appContext Spring). outInterceptor permet de définir qu’il s’agit d’intercepter les requêtes sortantes.&lt;/p&gt;
 &lt;p&gt;L’intercepteur étant lui même un bean Spring.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token namespace&quot;&gt;jaxws:&lt;/span&gt;client&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
          ...
