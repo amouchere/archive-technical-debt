@@ -24,7 +24,7 @@ const TagsPage = ({
         paddingBottom: '2%',
         marginLeft: '5%'
     }}>
-    <h1 class="main-heading"><a aria-current="page" class="" href="/">Technical Debt</a></h1>
+    <h1 class="main-heading"><a aria-current="page" class="" href="/technical-debt">Technical Debt</a></h1>
     <Helmet title={title} />
     <div>
       <h3>Tags</h3>
