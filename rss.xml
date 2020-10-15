@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Technical Debt]]></title><description><![CDATA[Un blog rempli de notes et pense-bête]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 15 Oct 2020 19:38:51 GMT</lastBuildDate><item><title><![CDATA[Branche git et prompt shell]]></title><description><![CDATA[=======
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Technical Debt]]></title><description><![CDATA[Un blog rempli de notes et pense-bête]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 15 Oct 2020 19:45:47 GMT</lastBuildDate><item><title><![CDATA[Branche git et prompt shell]]></title><description><![CDATA[=======
 UPDATE 2020 Utiliser plutôt  Oh-my-zsh qui gère nativement cet affichage et possède de nombreuses autres features. =======…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/affichage_de_la_branche_git_dans_le_prompt_shell/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/affichage_de_la_branche_git_dans_le_prompt_shell/</guid><pubDate>Tue, 02 Feb 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;=======
 UPDATE 2020&lt;/p&gt;
 &lt;p&gt;Utiliser plutôt &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot; title=&quot;Example&quot;&gt; Oh-my-zsh&lt;/a&gt; qui gère nativement cet affichage et possède de nombreuses autres features.&lt;/p&gt;
@@ -300,4 +300,47 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://placehold.it/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://placehold.it/200x50 &amp;quot;Image Title&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://placehold.it/200x50 &amp;quot;Image Title&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Ajouter une action au menu contextuel Windows]]></title><description><![CDATA[Pour ajouter une action au menu contextuel, il va falloir toucher à la base de registre de Window.  Ouvrir la base de registre. (regedit…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/ajouter_une_action_au_menu_contextuel_windows/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/ajouter_une_action_au_menu_contextuel_windows/</guid><pubDate>Fri, 14 Nov 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Pour ajouter une action au menu contextuel, il va falloir toucher à la base de registre de Window.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/97655/blog-regedit.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.10126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABf0lEQVQoz2WS63KbMBBGef+H6zRJ49o1ENDVWOiOJZC4dMHJtJ2eX6udOdJKn4qU4p2+cXbLKW8HKU3DMCzLkoF5B+pHCNo4qGMcQ4zPZpHnLXhC2lOMn/KctOyqlJd1mZfdhf46eM85M1qHwfdCyL6HfpHzmibD0Pd713tvQc6jJOjshinleZxyiCNUUukWYdErbSymN8pEHHd5mUbb1N9e3iupd3kc1ev5VDN3qVGFOmFCpx836WmneW8vze2t5D/qu7CpgOEHh8rrT6E8jArykowSlXWPX9fq5fVU1eh8KcsaSe20HRi/aSWds3CjYl23OcecEmgrLLYNngajq7OeYFSVJUaIEswo1VpZazhjdyGUVPCaxfYFiE/5Eab30xkcRhnG2DrnvXfOGWOstYQQzrlSGoL4I39usF86Sowo483HR9M0YJgvQAazF31KCU76Vz6AACGfEELbtk3TKq30XwghnvHvOf8vw5bHZ4gE47Ks6BNC3TE/nA/ycvAbpT02cqSb27cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;résultat&quot;
+        title=&quot;résultat&quot;
+        src=&quot;/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/f058b/blog-regedit.png&quot;
+        srcset=&quot;/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/c26ae/blog-regedit.png 158w,
+/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/6bdcf/blog-regedit.png 315w,
+/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/f058b/blog-regedit.png 630w,
+/technical-debt/static/0d33a3bd7157c951daf6290b00ce48c6/97655/blog-regedit.png 819w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ouvrir la base de registre. (regedit)&lt;/li&gt;
+&lt;li&gt;Aller dans: HKEY&lt;em&gt;LOCAL&lt;/em&gt;MACHINE &gt; software &gt; Classes &gt; folder &gt; shell&lt;/li&gt;
+&lt;li&gt;Ajouter une clé nommée &lt;maNouvelleAction&gt;.(cmdHere dans l’exemple)&lt;/li&gt;
+&lt;li&gt;Puis ajouter une sous-clé nommée “command”. (ne pas changer le nom de la sous-clé).&lt;/li&gt;
+&lt;li&gt;Double cliquer sur la sous-clé puis renseigner la valeur adaptée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Exemples:&lt;/p&gt;
+&lt;p&gt;Ici on veut ouvrir une fenêtre DOS et placer le prompt à l’emplacement du répertoire où on a cliquer droit.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cmd.exe /k pushd &amp;quot;%L&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;On peut aussi appeler un script (pour placer des variables d’environnement par exemple)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cmd.exe /k pushd &amp;quot;%L&amp;quot; &amp;amp; call I:\tools\bin\setup.bat&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
