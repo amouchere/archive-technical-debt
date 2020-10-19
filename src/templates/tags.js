@@ -19,7 +19,8 @@ const Tags = ({ pageContext, data }) => {
                         paddingBottom: '2%',
                         marginLeft: '5%'
                     }}>
-      <h1>{tagHeader}</h1>
+      <h1 class="main-heading"><a aria-current="page" class="" href="/technical-debt">Technical Debt</a></h1>
+      <h2>{tagHeader}</h2>
       <ul>
         {edges.map(({ node }) => {
           const { slug } = node.fields
